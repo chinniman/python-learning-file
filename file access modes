@@ -1,0 +1,7 @@
+r -- read
+w -- write
+a -- append
+r+ -- read/write. if file does not exists, error
+w+ -- read/ write. same but new file will be created
+a+ -- read/append. same as w+ but appended not overwritten
+rb/wb/ab -- binary. same as r/w/a but for binary instead of text
